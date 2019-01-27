@@ -14,8 +14,8 @@ public class GameWindow{
     private final int Y = (screenHeight/2)-(HEIGHT/2);
     private final GameLogic player = new GameLogic(WIDTH, HEIGHT);
     public GameWindow() {
-        JFrame frame= new JFrame();	
-        frame.setTitle("Pong");
+        JFrame frame= new JFrame();
+        frame.setTitle("Pong2");
         frame.setSize(WIDTH, HEIGHT);
         frame.setLocation(X, Y);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
